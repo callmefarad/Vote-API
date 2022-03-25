@@ -1,0 +1,36 @@
+{
+  "name": "codelab-fellows-vote-api",
+  "version": "1.0.0",
+  "description": "API for CodeLab Fellow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "Dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "nodemon",
+    "express",
+    "mongoose",
+    "multer",
+    "cloudinary",
+    "bcrypt",
+    "jsonwebtoken",
+    "cors"
+  ],
+  "author": "Ubani U. Friday",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.3",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  }
+}
